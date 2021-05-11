@@ -5,6 +5,7 @@ const guideJournalScraper = require("./guideJournalScraper");
 const scimagojrScraper = require("./scimagojrScraper");
 const clarivateScraper = require("./clarivateScraper");
 const greensciScraper = require("./greensciScraper");
+const bioxbioScraper=require("./bioxbioScraper")
 
 module.exports = {
   scholarScraper,
@@ -12,5 +13,6 @@ module.exports = {
   guideJournalScraper,
   scimagojrScraper,
   clarivateScraper,
+  bioxbioScraper,
   greensciScraper,
 };
